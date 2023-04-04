@@ -1,10 +1,7 @@
-html,
-body,
 #map {
-  height: 100%;
+  height: 500px;
   padding: 0;
   margin: 0;
-
 }
 
 .legend_info {
