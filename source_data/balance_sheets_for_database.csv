@@ -1,4 +1,4 @@
-Fund Code,Receivership,Failure Date,Total Assets,Total_Liabilities,Administrative Liabilities,FDIC Subrogated Deposit Claim,Uninsured Deposit Claims,Other Claimant Liabilities,Unproven Claims,Net Worth (Deficit)
+fund,receivership,faildate,total_assets,total_liabilities,administrative_liabilities,fdic_subrogated_deposit_claim,uninsured_deposit_claims,other_claimant_liabilities,unproven_claims,net_worth_deficit
 10030,1ST CENTENNIAL BANK,1/23/2009,4268.0,142039.0,11.0,140397.0,63.0,1568.0,0.0,-137771.0
 10200,ADVANTA BANK CORP,3/19/2010,5736.0,534002.0,12.0,527286.0,629.0,6075.0,0.0,-528266.0
 10538,ALMENA STATE BANK,10/23/2020,2816.0,19146.0,4.0,18804.0,0.0,338.0,0.0,-16330.0
