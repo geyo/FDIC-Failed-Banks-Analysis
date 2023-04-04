@@ -4,4 +4,32 @@ body,
   height: 100%;
   padding: 0;
   margin: 0;
+
 }
+
+.legend_info {
+  font: 20px Arial, Helvetica, sans-serif;
+  color: black;
+  background: whitesmoke;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  list-style-type: none;
+  border: 1px solid #999;
+
+}
+
+.legend_info li span{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  color: black;
+  margin-left: 5px;
+  margin-right: -15px;
+
+}
+
+.legend_info p {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
