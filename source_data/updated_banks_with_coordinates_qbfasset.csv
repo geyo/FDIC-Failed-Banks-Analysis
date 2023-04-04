@@ -1,4 +1,4 @@
-Fund,bank_name,city,state,Location,Latitude,Longitude,FAILDATE,QBFASSET
+fund,bank_name,city,state,location,latitude,longitude,faildate,qbfasset
 10538,Almena State Bank,Almena,KS,"Almena, KS",39.892229,-99.707058,10/23/2020,65733
 10537,First City Bank of Florida,Fort Walton Beach,FL,"Fort Walton Beach, FL",30.4057552,-86.618842,10/16/2020,136566
 10536,The First State Bank,Barboursville,WV,"Barboursville, WV",38.4095298,-82.2945923,4/3/2020,151808

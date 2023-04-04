@@ -2,21 +2,78 @@
 <html lang='en'>
 <head>
 	<meta charset="utf-8" />
-	<title>Demo Project</title>
+  <title>FDIC Banks Dashboard</title>
 	<script src="https://d3js.org/d3.v7.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
-  	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/app.js"></script>
+  <script src="static/js/trendgraph_4.js"></script>
+  <script src="static/js/piechart.js"></script>
+  <script type='text/javascript' src="static/js/logic.js"></script>
 </head>
 <body>
-    <div id='map'></div>
-	<script type='text/javascript' src="static/js/logic.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>FDIC Banks Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <!-- Map div-->
+    <div class="row">
+        <div class="col-md-12">
+          <div id="map"> </div>
+        </div>
+        <script type='text/javascript' src="static/js/map.js"></script>
+    </div>
+    <!--historical trend chart-->
+    <div class="row">
+        <div class="well">
+            <h5>Year:</h5>
+            <select id="yearDropdown"></select>
+        </div>
+        <div class="col-md-12">
+            <div id="chart"></div>
+        </div>
+    </div>
+    <!-- bottom for two things-->
+    <div class="row">
+      <!--Individual Bank Data well-->
+      <!--button-->
+      <div class="col-md-2">
+            <div class="well">
+                <h5>Choose a bank:</h5>
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <!--bank data individual-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Bank Information</h3>
+                </div>
+                <div id="sample-metadata" class="panel-body"></div>
+            </div>
+            <!--pie chart-->
+            <div class="col-md-5">
+                <h3>PIE</h3>
+                <div id="piechart"></div>
+            </div>
+      </div>
+    </div>
+      <!--Footer - Data definitions-->
+    <div class="col-md-5">
+        <h3>DEFINITIONS</h3>
+        <div id="definitions"></div>
+    </div>
+  </div>
 </body>
 </html>
