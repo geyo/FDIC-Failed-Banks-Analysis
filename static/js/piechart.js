@@ -1,5 +1,7 @@
 // Load CSV data using D3.js
-d3.csv('source_data/balance_sheets_for_database.csv').then(data_csv => {
+
+//d3.csv('source_data/balance_sheets_for_database.csv').then(data_csv => {
+d3.json('/balance_sheets_for_database').then(data_csv => {
     console.log(data_csv);
 
     // Define variables and assign values

@@ -1,0 +1,50 @@
+Term,Definition
+Bank Name ,Name of financial institution
+City ,City where bank is located
+State ,State where the bank is located
+Cert ,FDIC Certificate #
+Acquiring Institution ,Financial institution that purchased the failed bank
+Closing Date ,Date of closure
+Fund,Corresponds to FIN number; A FIN number forms part of identifying a particular business by the federal government within a given period. The identification helps the governing administration in levying the appropriate taxes to the company and regulating the economic activities in the market within a given period.
+CHCLASS1,"Charter Class
+N - National charter commercial bank supervised by the Office of the Comptroller of the Currency
+SM - State charter Fed member commercial bank supervised by the Federal Reserve
+NM - State charter Fed nonmember commercial bank supervised by the FDIC
+SA - State or federal charter savings association supervised by the Office of Thrift Supervision
+SB - State charter savings bank supervised by the FDIC"
+CITYST,"City, State"
+COST,"(The estimated loss in the thousands) 
+This the difference between the amount disbursed from the Deposit Insurance Fund (DIF) to cover obligations to insured depositors and the amount estimated to be ultimately recovered from the liquidation of the receivership estate. Estimated losses reflect unpaid principal amounts deemed unrecoverable and do not reflect interest that may be due on the DIF's administrative or subrogated claims should its principal be repaid in full."
+FAILDATE,"The date that the failed / assisted institution ceased to exist as a privately held going concern. For institutions that entered into government ownership, such as FDIC Bridge Banks and RTC Conservatorships, this is the date that they entered into such ownership."
+FIN,Financial Institution Number; Aligns with Fund Code.
+ID,Bank Identification Number (BIN) refers to the first four to six numbers on a payment card. This set of numbers identifies the financial institution that issues the card.
+NAME,Institution name
+QBFASSET,"(Total Assets in the thousands)
+The sum of all assets owned by the institution including cash, loans, securities, bank premises and other assets as of the last Call Report or Thrift Financial Report filed by the institution. This total does not include off-balance-sheet accounts."
+QBFDEP,"(Total Deposits in the thousands)
+The sum of all deposits including demand deposits, money market deposits, other savings deposits, time deposits and deposits in foreign offices as of the last Call Report or Thrift Financial Report filed by the institution."
+RESTYPE,"Type of resolution 
+(either failure or assistance for bank to merge w/ another institution)"
+RESTYPE1,"Transaction Type (How the bank failure is resolved)
+Category 1: The institution survives
+Category 2: The institution is terminated
+PA - Purchase and Assumption, where the insured and uninsured deposits, certain other liabilities and a portion of the assets were sold to an acquirer.
+PI - Purchase and Assumption of the insured deposits only, where the traditional P&A was modified so that only the insured deposits were assumed by the acquiring institution.
+Category 3: Other
+PO - Payout, where the insurer paid the depositors directly and placed the assets in a liquidating receivership.
+Not sure: 
+DNIB - Based on this press release in 2009, my educated guess is this refers to a temporarily created “Deposit Insurance National Bank” created by the FDIC to ensure that depositors have access to their money even though no other bank agreed to assume the insured deposits
+OBAM - Based on the fact that these funds are in billions category, that anything in this category occurred in 2008/2009 and this press release in 2009, I am assuming the type of resolution required the US Treasury in the Obama administration"
+SAVR,"Insurance fund 
+DIF - Deposit Insurance Fund
+BIF - Bank Insurance Fund
+SAIF - Savings Association Insurance Fund"
+Location,"City, State"
+Latitude,Latitude of failed bank
+Longitude,Longitude of failed bank
+Fund Code,"See definitions for:  Fund, FIN"
+Receivership,"In a receivership, the court appoints an independent ""receiver"" (or trustee) to manage all aspects of a troubled company's business."
+Failure Date,Date that the bank failure took place
+Total Assets,"the sum of the book values of all assets owned by an individual, company, or organization"
+Total_Liabilities,"The combined debts that an individual or company owes; On the balance sheet, total liabilities plus equity must equal total assets"
+Net Worth (Deficit),Total Assets less Total Liabilities

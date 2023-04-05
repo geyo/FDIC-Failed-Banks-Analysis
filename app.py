@@ -21,11 +21,15 @@ table_names = metadata.tables.keys()
 def home(): 
     return render_template('index.html')
 
-#@app.route('/csv-to-json')
-#def csv_to_json():
-#    df = pd.read_csv('static/data/trendchart.csv')
-#    data = df.to_dict(orient='records')
-#    return jsonify(data)
+#################################################
+# Project 3 Data Definitions
+#################################################
+
+@app.route('/Project_3_Data_definitions')
+def csv_to_json():
+    df = pd.read_csv('static/data/Project_3_Data_definitions.csv')
+    data = df.to_dict(orient='records')
+    return jsonify(data)
 
 #################################################
 # Balance_Sheets_for_DB

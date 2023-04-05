@@ -4,13 +4,14 @@
 colorArray = ['darkred', 'orangered', 'orange', 'green', 'blue', 'darkmagenta']
 
 // import csv file
-d3.csv('../source_data/updated_banks_with_coordinates_qbfasset.csv').then(function(data){
+//d3.csv('../source_data/updated_banks_with_coordinates_qbfasset.csv').then(function(data){
+d3.json('updated_banks_with_coordinates_qbfasset').then(function(data){
 	// console.log(data)
 
 	// create map
 	var myMap = L.map('map', {
 				center: [37.5522, -100.2437],
-				zoom: 4.5
+				zoom: 4
 	}); 
 	
 	// create tile layer for street map & add to map 
