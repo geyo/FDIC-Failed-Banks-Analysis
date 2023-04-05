@@ -48,22 +48,34 @@
       <!--Individual Bank Data well-->
       <!--button-->
       <div class="col-md-2">
-            <div class="well">
+        <div class="col-md-10">
+          <div class="well">
+            <h5>Select Bank Name:</h5>
+            <select id="selDataset"></select>
+          </div>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Bank Details</h3>
+            </div>
+            <div id="sample-metadata" class="panel-body"></div>
+          </div>
+        </div>
+            <!-- <div class="well">
                 <h5>Choose a bank:</h5>
                 <select id="selDataset" onchange="optionChanged(this.value)"></select>
-            </div>
+            </div> -->
             <!--bank data individual-->
-            <div class="panel panel-primary">
+            <!-- <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Bank Information</h3>
                 </div>
                 <div id="sample-metadata" class="panel-body"></div>
-            </div>
+            </div> -->
             <!--pie chart-->
-            <div class="col-md-5">
-                <h3>Pie Chart Breakdown of Total Liabilities</h3>
-                <div id="piechart"></div>
-            </div>
+        <div class="col-md-5">
+            <h3>Pie Chart Breakdown of Total Liabilities</h3>
+            <div id="piechart"></div>
+        </div>
       </div>
     </div>
       <!--Footer - Data definitions-->
@@ -75,9 +87,10 @@
   <!--<script src="static/js/app.js"></script>-->
   <script type="text/javascript" src="{{ url_for('static', filename='js/trendgraph_4.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='js/piechart.js') }}"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
+  <!--<script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>-->
   <script type="text/javascript" src="{{ url_for('static', filename='js/map.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='js/table_logic.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bankdropdowndemo.js') }}"></script>
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
   <link rel="stylesheet" type="text/css" href="static/css/table_style.css">
 
