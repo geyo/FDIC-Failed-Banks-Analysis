@@ -4,6 +4,8 @@ d3.json('/balance_sheets_for_database').then(data_json => {
     console.log(data_json);
 
     // Define variables and assign values
+    let total_assets = d3.sum(data_json, function(x) {return +x.total_assets; }); 
+    console.log('total_assets: ', total_assets);   
     let total_liabilities = d3.sum(data_json, function(x) {return +x.total_liabilities; }); 
     console.log('total_liabilities: ', total_liabilities);   
     let total_admin_liabilities = d3.sum(data_json, function(x) {return +x.administrative_liabilities; });
@@ -28,9 +30,10 @@ var trace_pie = {
   rotation: 233.281,
   pull: [0.133,0,0.133,0,0.133],
   textinfo: 'label+value+percent',
-  texttemplate: '%{label}: %{value:$,} (%{percent:.1%})',
+  texttemplate: '%{label}: %{value:$,}<i>K</i> (%{percent:.1%})',
   hoverinfo: 'label+value+percent',
-  hovertemplate: '%{label}<br>%{value:$,f}<br>%{percent}<extra></extra>',
+  hovertemplate: '%{label}<br>%{value:$,},000<br>%{percent:.1%}<extra></extra>',
+  textfont: {size: 14},
   insidetextorientation: 'horizontal',
   automargin: true
 };
