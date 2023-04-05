@@ -5,6 +5,7 @@
 <img src="images/fdiclogo.png" height=150/>
 <img src="images/bank.jpg" height=150 width=125/>
 </center>
+<br>
 
 # Group 8 Members:
 <li> Grace Yoo </li>
@@ -12,9 +13,11 @@
 <li> Pooja Rajasekharan </li>
 <li> Ry Avery </li>
 <li> Nicole Bustamante </li>
+<br>
 
 # Dashboard
 <a href=""> FDIC Failed Banks Dashboard </a>(need to add link to flask? to app.py?)
+<br>
 
 # Purpose
 
@@ -29,6 +32,7 @@ To gain an understanding of how outside factors (Covid, Sub-Prime Mortgage Crisi
 
 ### The Datasets
 Based on six datasets retrieved from the FDIC.
+<br>
 
 # Results
 The following visualizations can be found and further explored by visiting the dashboard referenced above:
@@ -37,6 +41,10 @@ The following visualizations can be found and further explored by visiting the d
 <li> Bank Demographics - <i>dropdown menu by bank </i></li>
 <li> Pie Chart <i>breakdown of total liabilities </i></li>
 <li> Data Definitions - <i>table defining common terms </i></li>
+<br>
+
+# Methodology
+(do we want to add blurbs on logic/creation of visuals...or high level coding explanations? ...to make easier for grading and provide background for potential employers?)
 <br>
 
 # Resources
