@@ -1,9 +1,9 @@
 # Project 3: FDIC Failed Banks Analysis
 
 <center>
-<img src="images/bank.jpg" height=150 width=125/>
-<img src="images/fdiclogo.png" height=150 width=175/>
-<img src="images/bank.jpg" height=150 width=125/>
+<img src="images/bank.jpg" height=150 width=20%/>
+<img src="images/fdiclogo.png" height=150 width=50%/>
+<img src="images/bank.jpg" height=150 width=20%/>
 </center>
 <br>
 
