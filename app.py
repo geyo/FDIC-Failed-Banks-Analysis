@@ -23,7 +23,7 @@ def home():
 
 @app.route('/csv-to-json')
 def csv_to_json():
-    df = pd.read_csv('source_data/trendchart.csv')
+    df = pd.read_csv('static/data/trendchart.csv')
     data = df.to_dict(orient='records')
     return jsonify(data)
 
@@ -41,3 +41,4 @@ def get_banklist():
 
 if __name__ == '__main__':
     app.run(debug=True)
+

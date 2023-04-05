@@ -1,5 +1,7 @@
 // Load the CSV data using D3.js
-d3.csv("../../source_data/trendchart.csv").then(data => {
+console.log('test')
+//d3.csv("static/data/trendchart.csv").then(data => {
+d3.csv("/csv-to-json").then(data=>{
     let years = new Set();
     let dataByYear = {};
     let aggregatedDataByYear = [];
