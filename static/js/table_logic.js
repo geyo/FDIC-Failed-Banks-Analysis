@@ -4,7 +4,7 @@ d3.json('Project_3_Data_definitions').then(function(datasetText){
   
   console.log(datasetText);
   //Create the table object
-  var table = d3.select('body').append('table')
+  var table = d3.select('#definitions').append('table')
                 .style("border-collapse", "collapse")
                 .style("border", "1px black solid");
 

@@ -19,8 +19,7 @@ FAILDATE,"The date that the failed / assisted institution ceased to exist as a p
 FIN,Financial Institution Number; Aligns with Fund Code.
 ID,Bank Identification Number (BIN) refers to the first four to six numbers on a payment card. This set of numbers identifies the financial institution that issues the card.
 NAME,Institution name
-QBFASSET,"(Total Assets in the thousands)
-The sum of all assets owned by the institution including cash, loans, securities, bank premises and other assets as of the last Call Report or Thrift Financial Report filed by the institution. This total does not include off-balance-sheet accounts."
+QBFASSET,"The sum of all assets owned by the institution including cash, loans, securities, bank premises and other assets as of the last Call Report or Thrift Financial Report filed by the institution. This total does not include off-balance-sheet accounts."
 QBFDEP,"(Total Deposits in the thousands)
 The sum of all deposits including demand deposits, money market deposits, other savings deposits, time deposits and deposits in foreign offices as of the last Call Report or Thrift Financial Report filed by the institution."
 RESTYPE,"Type of resolution 
