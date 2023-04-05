@@ -1,5 +1,7 @@
 //Read in CSV Data File and print
-d3.csv("../../source_data/Project_3_Data_definitions.csv").then(function(datasetText) {
+// d3.csv("../../source_data/Project_3_Data_definitions.csv").then(function(datasetText) {
+d3.json('Project_3_Data_definitions').then(function(datasetText){
+  
   console.log(datasetText);
   //Create the table object
   var table = d3.select('body').append('table')
