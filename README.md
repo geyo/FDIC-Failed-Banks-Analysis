@@ -2,7 +2,7 @@
 
 <center>
 <img src="images/bank.jpg" height=150 width=125/>
-<img src="images/fdiclogo.png" height=150/>
+<img src="images/fdiclogo.png" height=150 width=175/>
 <img src="images/bank.jpg" height=150 width=125/>
 </center>
 <br>
