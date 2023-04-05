@@ -1,8 +1,8 @@
 //--------- Bank DropDown and Demographics ---------//
 
 // Load the CSV file using d3.csv
-// d3.json('banklist_for_dropdowndemo').then(function (data) {
-d3.csv('source_data/banklist_for_dropdowndemo.csv').then(function (data) {
+d3.json('banklist_for_dropdowndemo').then(function (data) {
+// d3.csv('source_data/banklist_for_dropdowndemo.csv').then(function (data) {
     // Parse the CSV data into an array of objects
     var parsedData = data.map(function (row) {
         return {
@@ -46,7 +46,7 @@ d3.csv('source_data/banklist_for_dropdowndemo.csv').then(function (data) {
     
             // Use D3 to create an HTML table element and populate it with the filtered data
             var table = d3.select('#sample-metadata')
-                .append('table');
+                .append('table').classed('bank-data', true);
     
             var headers = ['bank_name', 'city', 'state', 'cert', 'acquiring_institution', 'closing_date', 'fund', 'total_assets', 'total_liabilities', 'net_worth_deficit'];
             var headers_nice = {'bank_name': 'Bank Name',

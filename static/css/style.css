@@ -30,3 +30,43 @@
   margin-left: 5px;
 }
 
+
+.select-right {
+  text-align: right;
+}
+.select-right option {
+  text-align: left;
+}
+
+#sample-metadata {
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.filtered-data {
+  width: 10%;
+}
+
+.bank-data {
+  table-layout: fixed; /* Set the table layout to fixed */
+  width: 100%; /* Set the width of the table to 100% */
+}
+
+.bank-data td {
+  width: 50%; /* Set the width of the td elements to 50% */
+}
+
+#definitions table {
+  border-collapse: collapse; /* Collapse borders between cells */
+ /*  width: 100%;  Set the width of the table to 100% */
+}
+
+#definitions th, #definitions td {
+  padding: 10px; /* Add 10px of padding to all cells */
+}
+
+#definitions th {
+  background-color: gray; /* Set the background color of the table headers to gray */
+  color: white; /* Set the text color of the table headers to white */
+}
