@@ -1,11 +1,19 @@
 # Project 3: FDIC Failed Banks Analysis
-
+<!-- 
 <center>
 <img src="images/bank.jpg" height=150 width=20%/>
 <img src="images/fdiclogo.png" height=150 width=50%/>
 <img src="images/bank.jpg" height=150 width=20%/>
 </center>
+ -->
+
+<div style="text-align:center;">
+    <img src="images/bank.jpg" height="150" style="display:inline-block; width:20%;">
+    <img src="images/fdiclogo.png" height="150" style="display:inline-block; width:50%;">
+    <img src="images/bank.jpg" height="150" style="display:inline-block; width:20%;">
+</div>
 <br>
+
 
 # Group 8 Members:
 <li> Grace Yoo </li>
