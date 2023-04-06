@@ -54,10 +54,10 @@ d3.json('updated_banks_with_coordinates_qbfasset').then(function(data){
 		// console.log(USD_assets)
 
 		// create marker popup (include Bank Name, Asset Value, Failure Date, Location)
-		layer.bindPopup(`<h1>Bank: ${bankNames}</h1><hr>
-						<p>QBF Asset Value ${USD_assets}<br>
+		layer.bindPopup(`<h2>Bank: ${bankNames}</h2><hr>
+						<h4>QBF Asset Value ${USD_assets}<br>
 						Bank Failure Date: ${failDates}<br>
-						Location: ${cities}, ${states}</p>`
+						Location: ${cities}, ${states}</h4>`
 		).addTo(myMap);//need to update csv file headers to get rid of spacing
 	}; //end of for loop 
 
