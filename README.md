@@ -49,7 +49,9 @@ Scrubbed data:
 <br>
 
 # Dashboard
-The following visualizations can be found on the FDIC Failed Banks Dashboard
+The following visualizations can be found on the FDIC Failed Banks Dashboard.
+<br>
+<i> To run the dashboard, use the Flask command or Python app.py. </i>
 
 
 ### Interactive Map - <i>markers indicate location and size of bank failure</i>
@@ -73,7 +75,7 @@ The following visualizations can be found on the FDIC Failed Banks Dashboard
 <br>
 
 # Methodology
-Data Processing Pipeline, Software, ETL:
+### Data Processing Pipeline, Software, ETL:
 <img src="images/ETL.png">
 <br>
 
