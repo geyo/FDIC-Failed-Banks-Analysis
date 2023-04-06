@@ -24,7 +24,15 @@
 <br>
 
 # Dashboard
-<a href=""> FDIC Failed Banks Dashboard (Under Construction) </a>
+Below are images from the FDIC Failed Banks Dashboard:
+<br>
+
+<img src="images/Dash1.png">
+<img src="images/Dash2.png">
+<img src="images/Dash3.png">
+<img src="images/Dash4.png">
+<br>
+<i> To run the dashboard application, use the Flask command or Python app.py command.</i>
 <br>
 <br>
 
