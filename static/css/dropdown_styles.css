@@ -1,0 +1,38 @@
+/* #custom-bg {
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nsf.gov%2Fnews%2Fmmg%2Fmedia%2Fimages%2Fsocial_bacteria_f.jpg&tbnid=VF6YVxsFnE5KQM&vet=12ahUKEwiXntLGuOv9AhWihu4BHZcSDm8QMygNegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.nsf.gov%2Fnews%2Fnews_summ.jsp%3Fcntn_id%3D125338&docid=tPXTxq__Nvz_MM&w=350&h=220&q=bacteria&ved=2ahUKEwiXntLGuOv9AhWihu4BHZcSDm8QMygNegUIARDZAQ');
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+/* 
+#text {
+    font-weight: bold;
+    font-size: large;
+} */
+
+/* .col-md-12.jumbotron.text-center {
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nsf.gov%2Fnews%2Fmmg%2Fmedia%2Fimages%2Fsocial_bacteria_f.jpg&tbnid=VF6YVxsFnE5KQM&vet=12ahUKEwiXntLGuOv9AhWihu4BHZcSDm8QMygNegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.nsf.gov%2Fnews%2Fnews_summ.jsp%3Fcntn_id%3D125338&docid=tPXTxq__Nvz_MM&w=350&h=220&q=bacteria&ved=2ahUKEwiXntLGuOv9AhWihu4BHZcSDm8QMygNegUIARDZAQ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}  */
+/* body {background-image:url(../../images/bank.jpg)  !important;} */
+
+/* 
+.banksection{
+    width: 200px;
+} */
+
+td {
+    padding-right: 30px;
+}
+
+
+body {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url(../../images/bank3.jpg);
+  }
