@@ -1,7 +1,7 @@
 # Project 3: FDIC Failed Banks Analysis
 <!-- 
 <center>
-<img src="images/bank.jpg" height=150 width=20%/>
+<img src="images/bank2.jpg" height=150 width=20%/>
 <img src="images/fdiclogo.png" height=150 width=50%/>
 <img src="images/bank.jpg" height=150 width=20%/>
 </center>
@@ -15,7 +15,7 @@
 <br>
 
 
-# Group 8 Members:
+# Group 8 Members
 <li> Grace Yoo </li>
 <li> Kiana Navarre </li>
 <li> Pooja Rajasekharan </li>
@@ -24,25 +24,35 @@
 <br>
 
 # Dashboard
-<a href=""> FDIC Failed Banks Dashboard </a>(need to add link to flask? to app.py?)
+<a href="http://127.0.0.1:5000/"> FDIC Failed Banks Dashboard </a>
 <br>
 
-# Purpose
+# Topic: US Bank Failures
 
-### Objective: 
-To investigate bank failures within the United States from 2000 to 2022 to try and understand the impact to personal finance as well as our overall economy.
+### <b>Motivation:</b> 
+To investigate bank failures within the United States from 2000 to 2022 to try and understand the impact to personal finances as well as to our overall economy.
 
-### Target Audience:
+### <b>Target Audience:</b>
 The general public for educational purposes.
 
-### Value of Analysis:
+### <b>Value Proposition:</b>
 To gain an understanding of how outside factors (Covid, Sub-Prime Mortgage Crisis, etc.) impact bank health to better guide personal financial decisions.
 
-### The Datasets
-Based on six datasets retrieved from the FDIC.
+### <b>The Datasets</b>
+Raw data retrieved from the FDIC:
+<li><a href="https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/index.html"> "banklist" </a></li>
+<li><a href="https://banks.data.fdic.gov/explore/failures?aggReport=detail&displayFields=NAME%2CCERT%2CFIN%2CCITYST%2CFAILDATE%2CSAVR%2CRESTYPE%2CCOST%2CRESTYPE1%2CCHCLASS1%2CQBFDEP%2CQBFASSET&endFailYear=2023&sortField=FAILDATE&sortOrder=desc&startFailYear=2012"> "bankdata" </a></li>
+<li><a href="https://receivership.fdic.gov/drripbal/"> "balancesheetsummaries" </a></li>
 <br>
 
-# Results
+Scrubbed data:
+<li><a href="https://github.com/geyo/Project-3/blob/main/static/data/balance_sheets_for_database.csv"> "balancesheetsfordatabase" </a></li>
+<li><a href="https://github.com/geyo/Project-3/blob/main/static/data/banklist_for_dropdowndemo.csv"> "banklistfordropdowndemo" </a></li>
+<li><a href="https://github.com/geyo/Project-3/blob/main/static/data/updated_banks_with_coordinates_qbfasset.csv"> "bankswithcoordinates" </a></li>
+<li><a href="https://github.com/geyo/Project-3/blob/main/static/data/trendchart.csv"> "trendchart" </a></li>
+<br>
+
+# Outputs
 The following visualizations can be found and further explored by visiting the dashboard referenced above:
 <li> Interactive Map - <i>markers indicate location and size of bank failure </i></li>
 <li> Historical Trend Analysis - <i>dropdown menu by year </i></li>
@@ -52,11 +62,12 @@ The following visualizations can be found and further explored by visiting the d
 <br>
 
 # Methodology
-(do we want to add blurbs on logic/creation of visuals...or high level coding explanations? ...to make easier for grading and provide background for potential employers?)
+Data Processing Pipeline, Software, ETL:
+<img src="images/ETL.png">
 <br>
 
 # Resources
 ### Data Sources:
-
+<i>Please see above in "Datasets"</i>
 ### Software/Tools:
-Jupyter, SQLite, Flask, JavaScript, VSCode, HTML, CSS, Chrome DevTool
+Excel, Jupyter, Python, Pandas, API, SQLite, Flask, JavaScript, VSCode, HTML, CSS, Chrome DevTool
