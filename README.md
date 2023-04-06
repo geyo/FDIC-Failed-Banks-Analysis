@@ -23,19 +23,6 @@
 <li> Nicole Bustamante </li>
 <br>
 
-# Dashboard
-Below are images from the FDIC Failed Banks Dashboard:
-<br>
-
-<img src="images/Dash1.png">
-<img src="images/Dash2.png">
-<img src="images/Dash3.png">
-<img src="images/Dash4.png">
-<br>
-<i> To run the dashboard application, use the Flask command or Python app.py command.</i>
-<br>
-<br>
-
 # Topic: US Bank Failures
 
 ### <b>Motivation:</b> 
@@ -61,13 +48,28 @@ Scrubbed data:
 <li><a href="https://github.com/geyo/Project-3/blob/main/static/data/trendchart.csv"> "trendchart" </a></li>
 <br>
 
-# Outputs
-The following visualizations can be found and further explored by visiting the dashboard referenced above:
-<li> Interactive Map - <i>markers indicate location and size of bank failure </i></li>
-<li> Historical Trend Analysis - <i>dropdown menu by year </i></li>
-<li> Bank Demographics - <i>dropdown menu by bank </i></li>
-<li> Pie Chart <i>breakdown of total liabilities </i></li>
-<li> Data Definitions - <i>table defining common terms </i></li>
+# Dashboard
+The following visualizations can be found on the FDIC Failed Banks Dashboard
+
+
+### Interactive Map - <i>markers indicate location and size of bank failure</i>
+<img align="middle" src="images/Dash1.png">
+<br>
+
+### Historical Trend Analysis - <i>dropdown menu by year </i>
+<img src="images/Dash2.png">
+<br>
+
+### Bank Demographics - <i>dropdown menu by bank </i>
+<img src="images/Dash3.png">
+<br>
+
+### Pie Chart <i>breakdown of total liabilities </i>
+<img src="images/Dash4.png">
+<br>
+
+### Data Definitions - <i>table defining common terms </i>
+<img src="images/Dash5.png">
 <br>
 
 # Methodology
