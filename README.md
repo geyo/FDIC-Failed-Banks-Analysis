@@ -24,7 +24,8 @@
 <br>
 
 # Dashboard
-<a href="http://127.0.0.1:5000/"> FDIC Failed Banks Dashboard </a>
+<a href=""> FDIC Failed Banks Dashboard (Under Construction) </a>
+<br>
 <br>
 
 # Topic: US Bank Failures
@@ -68,6 +69,6 @@ Data Processing Pipeline, Software, ETL:
 
 # Resources
 ### Data Sources:
-<i>Please see above in "Datasets"</i>
+<i>Please see "Datasets" above</i>
 ### Software/Tools:
 Excel, Jupyter, Python, Pandas, API, SQLite, Flask, JavaScript, VSCode, HTML, CSS, Chrome DevTool
