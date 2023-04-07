@@ -67,7 +67,7 @@ d3.json('updated_banks_with_coordinates_qbfasset').then(function(data){
 	// create function to define legend  
 	legend.onAdd = function(map) {
 		var div = L.DomUtil.create('div', 'legend_info'); 
-		colorRanges = ['>$1bn', '$1MM-$1bn', '$100k-$1MM', '$50k-$100k', '$10k-$50k', '<$10k'];
+		colorRanges = ['>$1Tn', '$1Bn-$1Tn', '$100MM-$1Bn', '$50MM-$100MM', '$10MM-$50MM', '<$10MM'];
 		var labels =[];
 
 		//legend title
