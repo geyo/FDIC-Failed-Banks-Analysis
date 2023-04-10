@@ -1,13 +1,13 @@
-// Load CSV data using D3.js
-//d3.csv('source_data/balance_sheets_for_database.csv').then(data_csv => {
+// Load JSON data using Flask
 d3.json('/balance_sheets_for_database').then(data_json => {
     console.log(data_json);
 
-    // Define variables and assign values
+    // Define variables and add up from selected columns
     let total_assets = d3.sum(data_json, function(x) {return +x.total_assets; }); 
     console.log('total_assets: ', total_assets);   
     let total_liabilities = d3.sum(data_json, function(x) {return +x.total_liabilities; }); 
     console.log('total_liabilities: ', total_liabilities);   
+    // Got variables to put in values array
     let total_admin_liabilities = d3.sum(data_json, function(x) {return +x.administrative_liabilities; });
     let total_fdic_sub_deposit_claim = d3.sum(data_json, function(x) {return +x.fdic_subrogated_deposit_claim; });
     let total_uninsured_deposit_claim = d3.sum(data_json, function(x) {return +x.uninsured_deposit_claims; });
@@ -17,12 +17,13 @@ d3.json('/balance_sheets_for_database').then(data_json => {
     let total_liabilities_tracked = values.reduce((currentTotal, currentValue) => currentTotal + currentValue);
     console.log('total_liabilities_tracked: ', total_liabilities_tracked);
 
+    // Got labels array then cleaned the string in it and put it in labels_clean
     let labels = Object.keys(data_json[0]).filter((key, index) => [0, 2, 9, 5, 10].includes(index));
     const labels_clean = labels.map(word => word.split('_').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ').replace('Fdic','FDIC'));
     console.log(labels_clean);
     console.log(values);
 
-    // Create trace
+// Create trace_pie
 var trace_pie = {
   type: 'pie',
   values: values,
@@ -37,7 +38,7 @@ var trace_pie = {
   insidetextorientation: 'horizontal',
   automargin: true
 };
-// The data array consists of trace
+// The data_pie array consists of trace_pie
 var data_pie = [trace_pie]
 
 // Define chart layout
